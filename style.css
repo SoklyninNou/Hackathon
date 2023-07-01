@@ -111,7 +111,7 @@ section p {
     width: 650px;
     text-align: justify;
     position: relative;
-    left: 123px;
+    left: 20px;
     bottom: 120px;
     line-height: 22px;
 }
@@ -193,8 +193,10 @@ section .main_btn:hover i {
     text-decoration: none;
     color: #fff;
     position: relative;
-    left: 55%;
-    bottom: 30px;
+    /* left: 55%; */
+    left: 45%;
+
+    bottom: 0.00000000000001px;
 }
 
 
