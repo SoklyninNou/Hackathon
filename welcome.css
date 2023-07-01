@@ -1,25 +1,27 @@
-
-header {
-    padding: 10px;
-    font-family: 'Bacasime Antique', serif;
-    font-size: 30px;
-    text-indent: 200px;
-}
-
-body{
-    background-image: url(images/Back.png);
-    background-size: cover;
-    padding: 20px;
+.welcome {
     font-family: "sage", sans-serif;
     font-size: 20px;
     text-indent: 70px;
     color: white;
+    width: 100%;
+    height: auto;
 }
+
+body {
+    background-image: url(david-travis-5bYxXawHOQg-unsplash.jpg);
+    background-size: cover;
+    padding: 0px;
+}
+
+.words {
+    font-size: 50px;
+}
+
 
 button {
     box-shadow: 8px 0px 0px 0px #899599;
     border-radius: 105px;
-    border: 5px solid #3d6095;
+    border: 2px solid #5c4003;
     display: inline-block;
     cursor: pointer;
     color: #000000;
@@ -27,9 +29,8 @@ button {
     padding: 12px 25px;
     font-family: "Ariel", sans-serif;
     text-decoration: none;
-    text-shadow: 0px 2px 0px #899599;
-    margin-left: 70px;
-    margin-bottom: 30px;
+    text-shadow: 0px 2px 0px #93B5C6;
+    margin: 10px;
 }
 
 button:hover {
@@ -50,13 +51,11 @@ body .image-section {
     width: 100%;
 }
 
-.words {
-    text-indent: 20px;
-}
 
 .image-section {
     overflow-x: hidden;
-  }
+}
+
 
 .image-section img {
     overflow: hidden;
@@ -65,11 +64,13 @@ body .image-section {
     animation: slideInfinite 16s linear infinite;
     padding: 10px;
 }
+
 @keyframes slideInfinite {
     0% {
-      transform: translateX(0);
+        transform: translateX(0);
     }
+
     100% {
-      transform: translateX(-200%);
+        transform: translateX(-200%);
     }
-  }
+}
